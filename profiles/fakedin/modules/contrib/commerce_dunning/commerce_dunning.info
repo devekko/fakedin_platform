@@ -1,0 +1,16 @@
+name = Commerce Dunning
+description = Provides a toolset for dunning management.
+core = 7.x
+package = Commerce (contrib)
+
+dependencies[] = commerce_cardonfile
+dependencies[] = rules_scheduler
+
+files[] = tests/commerce_dunning.test
+
+; Information added by Drupal.org packaging script on 2014-05-14
+version = "7.x-1.0-beta2+8-dev"
+core = "7.x"
+project = "commerce_dunning"
+datestamp = "1400077730"
+
